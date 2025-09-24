@@ -1,0 +1,8 @@
+.personalidade {
+    display: flex;
+    gap: 10px;
+}
+.personalidade h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}

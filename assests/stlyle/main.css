@@ -1,0 +1,13 @@
+.introducao {
+    grid-area: main;
+    padding: 30px;
+}
+.introducao h1 {
+    text-align: center;
+}
+
+.introducao p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

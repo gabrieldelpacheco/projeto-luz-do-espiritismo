@@ -1,0 +1,42 @@
+body {
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cbf7ef;
+    color: #333;
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside aside aside"
+        "main main main"
+        "footer footer footer";
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside {
+    grid-area: aside;
+    gap: 0.7em;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s;
+}
