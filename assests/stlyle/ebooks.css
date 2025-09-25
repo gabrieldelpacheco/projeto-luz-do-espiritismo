@@ -1,8 +1,37 @@
 .ebooks {
-    display: flex;
+    display: grid;
+    grid-template-areas:
+        "espiritos mediuns inferno"
+        "genese postumas oque";
     gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
 }
-.ebooks h3 {
+h3 {
     text-align: center;
     margin-bottom: 20px;
+}
+
+#espiritos {
+    grid-area: espiritos;
+}
+
+#mediuns {
+    grid-area: mediuns;
+}
+
+#inferno {
+    grid-area: inferno;
+}
+
+#genese {
+    grid-area: genese;
+}
+
+#postumas {
+    grid-area: postumas;
+}
+
+#oque {
+    grid-area: oque;
 }
