@@ -40,3 +40,7 @@ nav a:hover {
     text-align: center;
     transition: 0.5s;
 }
+
+footer li {
+    list-style: none;
+}
