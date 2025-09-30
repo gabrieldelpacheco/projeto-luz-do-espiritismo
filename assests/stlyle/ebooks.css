@@ -12,6 +12,14 @@
     justify-content: center;
 }
 
+.ebooks img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
 .ebooks-cardis {
     display: flex;
     flex-direction: column;
@@ -21,5 +29,19 @@
 
 #nosDominiosDaMediunidade{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
+
+.aviso {
+    background-color: #fff3cd;   /* amarelo suave */
+    color: #856404;             /* marrom para contraste */
+    border: 1px solid #ffeeba;  /* borda suave */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    max-width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
