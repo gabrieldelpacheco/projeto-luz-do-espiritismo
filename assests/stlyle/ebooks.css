@@ -1,37 +1,25 @@
-.ebooks {
-    display: grid;
-    grid-template-areas:
-        "espiritos mediuns inferno"
-        "genese postumas oque";
-    gap: 10px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-h3 {
-    text-align: center;
+.menu-livros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     margin-bottom: 20px;
 }
 
-#espiritos {
-    grid-area: espiritos;
+.ebooks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-#mediuns {
-    grid-area: mediuns;
+.ebooks-cardis {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
 }
 
-#inferno {
-    grid-area: inferno;
-}
-
-#genese {
-    grid-area: genese;
-}
-
-#postumas {
-    grid-area: postumas;
-}
-
-#oque {
-    grid-area: oque;
+#nosDominiosDaMediunidade{
+    display: flex;
+    flex-wrap: wrap;
 }
