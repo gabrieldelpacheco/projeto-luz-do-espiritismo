@@ -1,3 +1,7 @@
+main h3 {
+    text-align: center;
+}
+
 .menu-videos {
     display: flex;
     justify-content: center;
