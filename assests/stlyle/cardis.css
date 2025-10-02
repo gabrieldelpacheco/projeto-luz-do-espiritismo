@@ -7,7 +7,24 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
 img {
     width: 90px;
     border-radius: 8px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardis-videos {
+    width: 600px;
+    padding: 10px;
+}
+
+.cardis-videos div {
+    width: 550px;
 }
