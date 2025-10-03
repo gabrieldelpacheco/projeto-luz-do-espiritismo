@@ -20,6 +20,10 @@ h4, h5 {
     color: #333;
 }
 
+.titulos-subi-titulo {
+    text-align: left;
+}
+
 .aviso {
     background-color: #fff3cd;   /* amarelo suave */
     color: #856404;             /* marrom para contraste */
