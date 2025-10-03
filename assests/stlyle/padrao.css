@@ -14,6 +14,15 @@ body {
         "footer footer footer";
 }
 
+.titulo-livro-subi {
+    text-align: left;
+    color: #333;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
 a {
     text-decoration: none;
     color: #333;
