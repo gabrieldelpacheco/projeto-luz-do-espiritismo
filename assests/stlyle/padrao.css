@@ -43,12 +43,19 @@ nav {
 }
 
 nav a:hover {
-    background-color: #4CAF50;
+/*     background-color: #4CAF50;
     color: white;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.5s; */
+    color: #670808;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: .6em;
+    transition: 0.7s;
+    padding: 10px 10px;
 }
 
 ol li{

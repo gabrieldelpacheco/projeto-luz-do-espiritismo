@@ -1,11 +1,18 @@
 .cardis {
     display: flex;
     gap: 15px;
-    background-color: #f9f9f9;
     padding: 5px 15px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+}
+
+.cardis:hover {
+    color: #670808;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
 }
 
 img {

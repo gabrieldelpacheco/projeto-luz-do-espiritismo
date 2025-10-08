@@ -1,0 +1,23 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+table caption {
+    text-align: center;
+}
+
+thead th {
+    text-align: center;
+}
+
+caption, th, td {
+    border: 3px solid #c57d7d;
+    padding: 8px;
+    text-align: left;
+}
+
+tfoot td {
+    text-align: justify;
+}
