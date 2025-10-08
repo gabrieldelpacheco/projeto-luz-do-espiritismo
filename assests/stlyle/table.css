@@ -6,6 +6,7 @@ table {
 
 table caption {
     text-align: center;
+    font-weight: bold;
 }
 
 thead th {
@@ -19,5 +20,5 @@ caption, th, td {
 }
 
 tfoot td {
-    text-align: justify;
+    text-align: justify;  
 }
